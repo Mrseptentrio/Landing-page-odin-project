@@ -1,0 +1,181 @@
+body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, 'Times New Roman', Times, serif;
+}
+
+.nav {
+		display: flex;
+		background-color: #1F2937;
+}
+
+
+.logo {
+		font-weight: 700;
+		font-size: 24px;
+		color: #F9FAF8;
+		flex: 3;
+		margin: 20px;
+		padding-left: 44px;
+}
+
+a {
+		text-decoration: none;
+		color: #F9FAF8;
+		padding: 5px;
+		margin: 5px;
+		justify-content: right;
+		margin: 20px;
+}
+
+.header {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #1F2937;
+		color: #F9FAF8;
+}
+
+
+.left-side {
+		padding: 25px;
+		margin: 25px;
+		font-size: 20px;
+		flex: 3;
+		margin-left: 10%;
+		width: 300px;
+}
+
+.left-side h1 {
+		font-size: 48px;
+		font-style: bold;
+}
+
+.header .left-side .paragraph {
+		text-align: justify;
+		width: 400px;
+		text-justify: auto;
+}
+
+.right-side {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 10%;
+}
+
+.right-side img {
+		width: 450px;
+		height: 200px;
+		padding: 25px;
+		margin: 25px;
+}
+
+
+
+button {
+		background-color: #3882F6;
+		border: solid 2px #3882F6;
+		border-radius: 5px;
+		padding: 5px 25px 5px 25px;
+}
+.body {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+}
+
+.body h1 {
+		text-align: center;
+		color: #1F2937;
+		font-size: 36px;
+		font-weight: extra-bold;
+		margin: 100px;
+
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 92px;
+  margin-bottom: 50px;
+}
+
+.plant1 {
+  width: 100px;
+  flex: 1;
+}
+
+.plant2 {
+  width: 100px;
+  flex: 1;
+}
+
+.plant3 {
+  width: 100px;
+  flex: 1;
+}
+
+.plant4 {
+  width: 100px;
+  flex: 1;
+}
+
+.container img {
+		width: 150px;
+}
+
+
+.contact {
+		background-color: #E5E7EB;
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		height: 500px;
+}
+
+.contact .quote-block  {
+		text-align: justify;
+		margin-left: 20%;
+		margin-right: 20%;
+}
+
+.contact .quote-block p {
+		font-size: 36px;
+		font-style: italic;
+		margin-left: 10%;
+		margin-right: 10%;
+}
+
+.contact figcaption {
+		font-size: 20px;
+		font-style: bold;
+		margin-left: 60%;
+		margin-bottom: 60%;
+
+}
+
+
+.contained {
+		display: flex;
+		align-items: center;
+		justify-content: space-arround;
+}
+
+.left-foot {
+		justify-content: left;
+}
+
+
+.copyright {
+		background-color: #1F2937;
+		width: 100%;
+		text-align: center;
+		color: white;
+		padding: 30px;
+		font-size: 18px;
+}
