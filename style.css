@@ -6,14 +6,15 @@ body {
 
 .nav {
 		display: flex;
-		background-color: #1F2937;
+		background-color: #14213d;
+		width: 100%;
 }
 
 
 .logo {
 		font-weight: 700;
 		font-size: 24px;
-		color: #F9FAF8;
+		color: #fca311;
 		flex: 3;
 		margin: 20px;
 		padding-left: 44px;
@@ -21,7 +22,7 @@ body {
 
 a {
 		text-decoration: none;
-		color: #F9FAF8;
+		color: #fca311;
 		padding: 5px;
 		margin: 5px;
 		justify-content: right;
@@ -32,7 +33,7 @@ a {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: #1F2937;
+		background-color: #fca311;
 		color: #F9FAF8;
 }
 
@@ -49,6 +50,7 @@ a {
 .left-side h1 {
 		font-size: 48px;
 		font-style: bold;
+		color: #14213d;
 }
 
 .header .left-side .paragraph {
@@ -62,22 +64,27 @@ a {
 		align-items: center;
 		justify-content: center;
 		margin-right: 10%;
+		margin: 50px;
 }
 
 .right-side img {
-		width: 450px;
-		height: 200px;
+		width: 350px;
+		height: 250px;
 		padding: 25px;
 		margin: 25px;
+		border: solid 1px #f6bd60;
+		width: 100%;
+		border-radius: 10px;
 }
 
 
 
 button {
-		background-color: #3882F6;
-		border: solid 2px #3882F6;
+		background-color: #f6bd60;
+		border: solid 2px #e5e5e5;
 		border-radius: 5px;
 		padding: 5px 25px 5px 25px;
+		color: #14213d;
 }
 .body {
 		display: flex;
@@ -85,11 +92,14 @@ button {
 		flex-direction: column;
 		justify-content: center;
 		flex-wrap: wrap;
+		width: 100%;
+		margin-left: -60px;
+		margin-right: -120px;
 }
 
 .body h1 {
 		text-align: center;
-		color: #1F2937;
+		color: #14213d;
 		font-size: 36px;
 		font-weight: extra-bold;
 		margin: 100px;
@@ -108,21 +118,57 @@ button {
 .plant1 {
   width: 100px;
   flex: 1;
+  text-align: justify;
+}
+
+.plant1 img {
+		width: 100px;
+		height: 100px;
+		border: solid 5px #fca311;	
+		border-radius: 10px;
 }
 
 .plant2 {
   width: 100px;
   flex: 1;
+  text-align: justify;
 }
+
+.plant2 img {
+		width: 100px;
+		height: 100px;
+		border: solid 5px #fca311;
+		border-radius: 10px;
+}
+
+
 
 .plant3 {
   width: 100px;
   flex: 1;
+  text-align: justify;
+}
+
+
+.plant3 img {
+		width: 100px;
+		height: 100px;
+		border: solid 5px #fca311;
+		border-radius: 10px;
 }
 
 .plant4 {
   width: 100px;
   flex: 1;
+  text-align: justify;
+}
+
+
+.plant4 img {
+		width: 100px;
+		height: 100px;
+		border: solid 5px #fca311;
+		border-radius: 10px;
 }
 
 .container img {
@@ -133,15 +179,15 @@ button {
 .contact {
 		background-color: #E5E7EB;
 		display: flex;
-		width: 100%;
 		flex-wrap: wrap;
 		height: 500px;
+		width: 100%;
+		margin-right: -120px;
+		margin-left: -60px;
 }
 
 .contact .quote-block  {
 		text-align: justify;
-		margin-left: 20%;
-		margin-right: 20%;
 }
 
 .contact .quote-block p {
@@ -160,19 +206,52 @@ button {
 }
 
 
+.footer {
+		padding: 50px;
+}
+
 .contained {
 		display: flex;
-		align-items: center;
-		justify-content: space-arround;
+		margin: 0;
+		background-color: #14213d;
+		padding: 50px;
+		border-radius: 15px;
+		gap: 50px;
+		margin-left: 60px;
 }
+
+.contained .button-foot {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		border: 2px solid white;
+		border-radius: 8px;
+		margin: auto 10px auto 10px;
+}
+
+
+.contained .button-foot button {
+		color: white;
+}
+
+
 
 .left-foot {
 		justify-content: left;
+		margin: auto 150px auto auto;
+		align-items: center;
+		justify-content: space-around;
+		color: white;
 }
 
+.left-foot div {
+		font-size: 26px;
+		font-style: bold;
+		font-weight: 800;
+}
 
 .copyright {
-		background-color: #1F2937;
+		background-color: #14213d;
 		width: 100%;
 		text-align: center;
 		color: white;
